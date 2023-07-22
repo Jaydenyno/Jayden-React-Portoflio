@@ -36,3 +36,85 @@
     transform: rotate(360deg);
   }
 }
+
+/* ---------- All Body Styling ---------- */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+#about, #project, #skill {
+  padding: 100px 200px;
+}
+
+
+/* ---------- Navbar Styling ---------- */
+#navbar {
+  position: sticky;
+  top: 0px;
+}
+#navbar #container, #navbar #list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 70px;
+  color: white;
+}
+#navbar #container h1 {
+  margin-right: 20px;
+}
+#navbar #navbar-list a{
+  margin: 0px 20px;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ---------- About Styling ---------- */
+#about {
+  background-color: rgb(0, 139, 104);
+}
+#about h1, #about p {
+  color: white;
+}
+#about p {
+  margin: 70px 0px;
+}
+
+/* ---------- Skill Styling ---------- */
+#skill {
+  background-color: rgba(154, 145, 144);
+}
+#skill h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+#skill #skill-list-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+#skill #grid {
+  text-align: center;
+}
+#skill h1, #skill h3 {
+  color: white;
+}
+
+/* ---------- Project Styling ---------- */
+#project-container h1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* ---------- Footer Styling ---------- */
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+#footer p {
+  color: white;
+}
